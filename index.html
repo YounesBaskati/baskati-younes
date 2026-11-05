@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Younes Baskati | Web Developer &amp; Food Technology Technician</title>
+  <meta name="description" content="Portfolio of Younes Baskati, Web Developer and Specialized Technician in Food Technology based in Casablanca, Morocco.">
+  <meta name="author" content="Younes Baskati">
+  <meta name="theme-color" content="#0A0F0D">
+  <meta property="og:title" content="Younes Baskati | Web Developer &amp; Food Technology Technician">
+  <meta property="og:description" content="Web development and food technology: HTML, CSS, JavaScript, quality control and production follow-up.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Younes Baskati, home">&lt;YB /&gt;</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link"><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a></li>
+        <li><a href="#about" class="nav-link"><i class="fa-solid fa-user" aria-hidden="true"></i> About</a></li>
+        <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
+        <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code" aria-hidden="true"></i> Skills</a></li>
+        <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Experience</a></li>
+        <li><a href="#projects" class="nav-link"><i class="fa-solid fa-folder-open" aria-hidden="true"></i> Projects</a></li>
+        <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-greeting reveal"><span class="mono">Hello, World! I’m</span></p>
+          <h1 class="hero-name reveal" id="hero-title">Younes <span class="accent">Baskati</span></h1>
+          <p class="hero-role reveal">Web Developer &amp; Food Technology Technician<span class="cursor" aria-hidden="true"></span></p>
+          <p class="hero-location reveal"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Casablanca, Morocco</p>
+          <p class="hero-intro reveal">
+            I build clean, responsive websites with HTML, CSS and JavaScript, backed by a technical
+            background in food manufacturing, production follow-up and quality control.
+          </p>
+
+          <ul class="badges reveal" aria-label="Technologies">
+            <li class="badge"><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML5</li>
+            <li class="badge"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS3</li>
+            <li class="badge"><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
+            <li class="badge"><i class="fa-solid fa-flask" aria-hidden="true"></i> Food Tech</li>
+          </ul>
+
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket" aria-hidden="true"></i> Explore My Work</a>
+            <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="terminal" role="img" aria-label="Decorative code editor showing a profile object">
+            <div class="terminal-bar">
+              <span class="dot dot-1"></span><span class="dot dot-2"></span><span class="dot dot-3"></span>
+              <span class="terminal-title mono">profile.js</span>
+            </div>
+            <pre class="terminal-body mono"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Younes Baskati"</span>,
+  <span class="c-prop">location</span>: <span class="c-str">"Casablanca, MA"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>, <span class="c-str">"JS"</span>],
+  <span class="c-prop">background</span>: <span class="c-str">"Food Technology"</span>,
+  <span class="c-prop">learning</span>: <span class="c-key">true</span>
+};</code></pre>
+          </div>
+
+          <div class="photo-wrap">
+            <div class="photo-ring" aria-hidden="true"></div>
+            <div class="photo-frame">
+              <img src="baskati.jpeg" alt="Portrait of Younes Baskati" width="320" height="320" fetchpriority="high" data-fallback="photo">
+            </div>
+          </div>
+
+          <span class="float float-1 mono" aria-hidden="true">&lt;/span&gt;</span>
+          <span class="float float-2 mono" aria-hidden="true">{ }</span>
+          <span class="float float-3 mono" aria-hidden="true">#</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="about-title"><i class="fa-solid fa-user" aria-hidden="true"></i> About Me</h2>
+        <div class="about-grid">
+          <div class="card glass reveal about-text">
+            <p>
+              I’m a web developer in the making with a strong interest in building modern, responsive
+              websites. My current knowledge covers HTML, CSS and JavaScript, and I enjoy turning ideas
+              into clean, accessible interfaces.
+            </p>
+            <p>
+              Alongside this, I hold a Specialized Technician diploma in Food Technology (Manufacturing
+              option). That training gave me a solid understanding of production processes, quality
+              fundamentals and the discipline required in an industrial environment.
+            </p>
+            <p>
+              I’m motivated to keep learning and improving every day, combining the rigor of
+              food production with the creativity of web development.
+            </p>
+          </div>
+          <ul class="about-facts">
+            <li class="card glass reveal"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><div><strong>Location</strong><span>Casablanca, Morocco</span></div></li>
+            <li class="card glass reveal"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><div><strong>Diploma</strong><span>TS Food Technology</span></div></li>
+            <li class="card glass reveal"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i><div><strong>Focus</strong><span>HTML · CSS · JavaScript</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="education-title"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</h2>
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <article class="card glass">
+              <div class="card-head">
+                <div class="logo-box" aria-hidden="false">
+                  <img src="assets/ofppt-logo.png" alt="OFPPT logo" width="64" height="64" loading="lazy" data-fallback="logo">
+                  <span class="logo-placeholder mono">OFPPT</span>
+                </div>
+                <div>
+                  <p class="period mono"><i class="fa-regular fa-calendar" aria-hidden="true"></i> 2023 – 2025</p>
+                  <h3>Technicien Spécialisé en Technologie des Aliments</h3>
+                </div>
+              </div>
+              <p class="institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> CFAP Aïn Sebaâ / ISFPA Casablanca</p>
+              <p class="muted">Field: Fabrication / Agro-industrie</p>
+            </article>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <article class="card glass">
+              <div class="card-head">
+                <div class="icon-box"><i class="fa-solid fa-dna" aria-hidden="true"></i></div>
+                <div>
+                  <p class="period mono"><i class="fa-regular fa-calendar" aria-hidden="true"></i> 2022 – 2023</p>
+                  <h3>Baccalauréat Sciences de la Vie et de la Terre (SVT)</h3>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="skills-title"><i class="fa-solid fa-code" aria-hidden="true"></i> Skills</h2>
+
+        <h3 class="skills-group reveal"><span class="mono">&lt;</span>Web Development<span class="mono"> /&gt;</span></h3>
+        <ul class="skills-grid">
+          <li class="card glass skill reveal"><i class="fa-brands fa-html5" aria-hidden="true"></i><h4>HTML5</h4><span class="tag">Practical knowledge</span></li>
+          <li class="card glass skill reveal"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><h4>CSS3</h4><span class="tag">Practical knowledge</span></li>
+          <li class="card glass skill reveal"><i class="fa-brands fa-js" aria-hidden="true"></i><h4>JavaScript</h4><span class="tag tag-learning">Learning</span></li>
+        </ul>
+
+        <h3 class="skills-group reveal"><span class="mono">&lt;</span>Food Technology<span class="mono"> /&gt;</span></h3>
+        <ul class="skills-grid">
+          <li class="card glass skill reveal"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i><h4>Quality Control</h4><span class="tag">Academic &amp; practical</span></li>
+          <li class="card glass skill reveal"><i class="fa-solid fa-industry" aria-hidden="true"></i><h4>Production Follow-up</h4><span class="tag">Internship experience</span></li>
+          <li class="card glass skill reveal"><i class="fa-solid fa-gears" aria-hidden="true"></i><h4>Food Manufacturing</h4><span class="tag">Academic training</span></li>
+          <li class="card glass skill reveal"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i><h4>Food Safety Fundamentals</h4><span class="tag tag-learning">Fundamentals</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="experience-title"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Experience</h2>
+        <div class="exp-grid">
+          <article class="card glass exp reveal">
+            <div class="card-head">
+              <div class="logo-box">
+                <img src="assets/emsa-logo.png" alt="EMSA logo" width="64" height="64" loading="lazy" data-fallback="logo">
+                <span class="logo-placeholder mono">EMSA</span>
+              </div>
+              <div>
+                <h3>EMSA – Ebbo Maroc</h3>
+                <p class="role">Practical Internship</p>
+                <p class="period mono"><i class="fa-regular fa-calendar" aria-hidden="true"></i> April 2026</p>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Product counting</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Production line monitoring</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Following manufacturing operations</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Familiarization with cold-room operations and storage</li>
+            </ul>
+          </article>
+
+          <article class="card glass exp reveal">
+            <div class="card-head">
+              <div class="icon-box"><i class="fa-solid fa-cash-register" aria-hidden="true"></i></div>
+              <div>
+                <h3>AlloBike</h3>
+                <p class="role">Cash Management &amp; Customer Reception</p>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Cash register management</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Customer reception</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Customer service</li>
+              <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Daily operational support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="projects-title"><i class="fa-solid fa-folder-open" aria-hidden="true"></i> Projects</h2>
+
+        <!-- Future project cards go inside this grid (see the commented template below). -->
+        <div class="projects-grid" id="projectsGrid">
+          <div class="empty-state card glass reveal">
+            <div class="empty-visual mono" aria-hidden="true">
+              <span class="empty-line">&gt; ls ./projects</span>
+              <span class="empty-line">&gt; <span class="typed" id="emptyTyped"></span><span class="cursor"></span></span>
+            </div>
+            <h3>Projects Coming Soon</h3>
+            <p class="muted">I’m currently working on my first projects. They will appear here as soon as they are ready.</p>
+            <span class="tag tag-learning"><i class="fa-solid fa-hammer" aria-hidden="true"></i> In progress</span>
+          </div>
+
+          <!--
+          Project card template:
+          <article class="card glass project reveal">
+            <h3>Project name</h3>
+            <p class="muted">Short description.</p>
+            <ul class="badges"><li class="badge">HTML5</li><li class="badge">CSS3</li></ul>
+            <a class="btn btn-outline" href="#">View project</a>
+          </article>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="contact-title"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact</h2>
+        <div class="contact-grid">
+          <ul class="contact-list">
+            <li class="reveal"><a class="card glass contact-item" href="mailto:baskatiyounes@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><div><strong>Email</strong><span>baskatiyounes@gmail.com</span></div></a></li>
+            <li class="reveal"><a class="card glass contact-item" href="tel:+212654136783"><i class="fa-solid fa-phone" aria-hidden="true"></i><div><strong>Phone</strong><span>+212 654 136 783</span></div></a></li>
+            <li class="reveal"><a class="card glass contact-item" href="https://www.linkedin.com/in/baskatiyounes" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><div><strong>LinkedIn</strong><span>in/baskatiyounes</span></div></a></li>
+            <li class="reveal"><div class="card glass contact-item"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><div><strong>Location</strong><span>Casablanca, Morocco</span></div></div></li>
+          </ul>
+
+          <div class="card glass cta-card reveal">
+            <h3 class="mono">&lt;Let’s Work Together /&gt;</h3>
+            <p class="muted">Have an opportunity, an internship or a web project in mind? I’d be glad to hear from you.</p>
+            <a href="mailto:baskatiyounes@gmail.com?subject=Let%27s%20Work%20Together" class="btn btn-primary"><i class="fa-solid fa-handshake" aria-hidden="true"></i> Let’s Work Together</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo" aria-label="Back to top">&lt;YB /&gt;</a>
+        <p class="muted small">&copy; <span id="year">2026</span> Younes Baskati. All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="socials">
+        <li><a href="https://www.linkedin.com/in/baskatiyounes" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:baskatiyounes@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="tel:+212654136783" aria-label="Phone"><i class="fa-solid fa-phone" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
